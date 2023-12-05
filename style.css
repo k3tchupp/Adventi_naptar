@@ -1,0 +1,59 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    background-image: url("kep1.webp");
+    
+}
+ 
+.kalendar {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 10px;
+    padding: 10px;
+    max-width: 600px;
+    width: 100%;
+}
+ 
+.window {
+    background-color: #ff00aa;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    cursor: pointer;
+    font-size: 1.5em;
+    user-select: none;
+}
+ 
+@media (max-width: 600px) {
+    .window {
+        height: 80px;
+    }
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.title-1 {
+    color: #ff0000;
+    display: block;
+  }
+
+.title-2{
+    color: #00ffc8;
+    display: block;
+  }
+
+.title-3 {
+    color: #1900ff;
+    display: block;
+}
